@@ -7,7 +7,6 @@ echo "     \____/\__,_|\___|\__|_| \____/ |_| |_|___/\__\__,_|_|_|\___|_|     "
 USUARIO=`whoami`
 if [ $USUARIO = "root" ]
 	then
-		rm -rf recargandocactiinstaller.sh 
 		if grep "Debian GNU/Linux 6.0" /etc/issue >> /dev/null 
 			then
 				echo "este sistema es soportado"
